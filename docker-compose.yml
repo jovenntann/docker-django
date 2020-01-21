@@ -6,8 +6,8 @@ services:
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     environment:
-      MYSQL_ROOT_PASSWORD: 09106850351
-      MYSQL_DATABASE: srhub
+      MYSQL_ROOT_PASSWORD: NhwwxXe3IJ
+      MYSQL_DATABASE: django
     ports:
       - 3306:3306
 
@@ -22,6 +22,7 @@ services:
       sh -c 'python manage.py runserver 0.0.0.0:8000'
     depends_on:
       - db
+    restart: always
       
   adminer:
     image: adminer

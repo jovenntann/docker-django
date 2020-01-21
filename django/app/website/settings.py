@@ -85,9 +85,9 @@ WSGI_APPLICATION = 'website.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'srhub',
+        'NAME': 'django',
         'USER': 'root',
-        'PASSWORD': '09106850351',
+        'PASSWORD': 'NhwwxXe3IJ',
         'HOST': 'db',
         'PORT': '3306',
     }
